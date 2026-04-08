@@ -1,0 +1,391 @@
+{
+  "hrQuestions": [
+    {
+      "id": "hr-001",
+      "question": "Tell me about yourself.",
+      "category": "general",
+      "difficulty": "easy",
+      "expectedKeywords": ["background", "experience", "skills", "interest"],
+      "tips": ["Keep it concise (60-90 seconds)", "Focus on relevant experience", "End with why you're interested in the role"]
+    },
+    {
+      "id": "hr-002",
+      "question": "What are your greatest strengths?",
+      "category": "personal",
+      "difficulty": "easy",
+      "expectedKeywords": ["leadership", "communication", "problem-solving", "technical"],
+      "tips": ["Be specific with examples", "Pick 3 key strengths", "Relate to the job requirements"]
+    },
+    {
+      "id": "hr-003",
+      "question": "Where do you see yourself in five years?",
+      "category": "goals",
+      "difficulty": "medium",
+      "expectedKeywords": ["growth", "career progression", "company", "responsibilities"],
+      "tips": ["Show ambition and alignment with company", "Be realistic", "Focus on skills and growth"]
+    },
+    {
+      "id": "hr-004",
+      "question": "Why do you want to work here?",
+      "category": "motivation",
+      "difficulty": "medium",
+      "expectedKeywords": ["company values", "culture", "mission", "products", "team"],
+      "tips": ["Research the company thoroughly", "Show genuine interest", "Connect your values to theirs"]
+    },
+    {
+      "id": "hr-005",
+      "question": "Describe a challenging situation and how you handled it.",
+      "category": "behavioral",
+      "difficulty": "medium",
+      "expectedKeywords": ["problem", "solution", "outcome", "learned", "teamwork"],
+      "tips": ["Use STAR method (Situation, Task, Action, Result)", "Be honest", "Show positive outcome or learnings"]
+    },
+    {
+      "id": "hr-006",
+      "question": "What motivates you in a work environment?",
+      "category": "motivation",
+      "difficulty": "easy",
+      "expectedKeywords": ["growth", "challenge", "team", "impact", "learning"],
+      "tips": ["Be honest and specific", "Show enthusiasm", "Relate to company values"]
+    },
+    {
+      "id": "hr-007",
+      "question": "How do you handle pressure and tight deadlines?",
+      "category": "stress-management",
+      "difficulty": "medium",
+      "expectedKeywords": ["prioritize", "organize", "stay calm", "communicate", "results"],
+      "tips": ["Give a specific example", "Show calmness and organization", "Demonstrate ability to deliver"]
+    },
+    {
+      "id": "hr-008",
+      "question": "Tell me about a time you showed leadership.",
+      "category": "leadership",
+      "difficulty": "medium",
+      "expectedKeywords": ["initiative", "team", "goal", "influence", "result"],
+      "tips": ["Leadership doesn't mean title", "Show initiative", "Highlight positive impact on team"]
+    },
+    {
+      "id": "hr-009",
+      "question": "What is your greatest weakness?",
+      "category": "personal",
+      "difficulty": "hard",
+      "expectedKeywords": ["real weakness", "working on", "improvement", "example"],
+      "tips": ["Pick a real weakness, not fake", "Show self-awareness", "Demonstrate efforts to improve"]
+    },
+    {
+      "id": "hr-010",
+      "question": "Why are you leaving your current position?",
+      "category": "motivation",
+      "difficulty": "hard",
+      "expectedKeywords": ["positive reason", "growth opportunity", "new challenge", "alignment"],
+      "tips": ["Be diplomatic", "Focus on opportunities, not desperation", "Don't bash current employer"]
+    }
+  ],
+  "technicalQuestions": {
+    "default": [
+      {
+        "id": "tech-default-001",
+        "question": "Explain the difference between stack and queue data structures.",
+        "category": "data-structures",
+        "difficulty": "easy",
+        "expectedKeywords": ["LIFO", "FIFO", "push", "pop", "enqueue", "dequeue"],
+        "tips": ["Explain with real-world examples", "Mention use cases", "Show code examples if possible"]
+      },
+      {
+        "id": "tech-default-002",
+        "question": "What is the time complexity of binary search?",
+        "category": "algorithms",
+        "difficulty": "easy",
+        "expectedKeywords": ["O(log n)", "logarithmic", "sorted", "divide and conquer"],
+        "tips": ["Explain why it's O(log n)", "Compare with linear search", "Mention prerequisites"]
+      },
+      {
+        "id": "tech-default-003",
+        "question": "Describe the concept of polymorphism in OOP.",
+        "category": "oop",
+        "difficulty": "medium",
+        "expectedKeywords": ["method overloading", "method overriding", "inheritance", "interface"],
+        "tips": ["Explain compile-time vs runtime polymorphism", "Give code examples", "Show practical benefits"]
+      },
+      {
+        "id": "tech-default-004",
+        "question": "How would you optimize a slow database query?",
+        "category": "database",
+        "difficulty": "hard",
+        "expectedKeywords": ["indexing", "query analysis", "joins", "caching", "denormalization"],
+        "tips": ["Start with EXPLAIN/analysis", "Mention indexing", "Discuss trade-offs", "Mention caching"]
+      },
+      {
+        "id": "tech-default-005",
+        "question": "Explain RESTful API design principles.",
+        "category": "api-design",
+        "difficulty": "medium",
+        "expectedKeywords": ["HTTP methods", "stateless", "resources", "status codes", "versioning"],
+        "tips": ["Explain each HTTP verb (GET, POST, PUT, DELETE)", "Show endpoint examples", "Mention status codes"]
+      },
+      {
+        "id": "tech-default-006",
+        "question": "What is the difference between SQL and NoSQL databases?",
+        "category": "database",
+        "difficulty": "medium",
+        "expectedKeywords": ["ACID", "schema", "scaling", "transactions", "document", "relational"],
+        "tips": ["Compare structure and use cases", "Discuss when to use each", "Mention examples"]
+      },
+      {
+        "id": "tech-default-007",
+        "question": "Describe the concept of microservices architecture.",
+        "category": "architecture",
+        "difficulty": "hard",
+        "expectedKeywords": ["independent", "scalable", "distributed", "API", "deployment", "communication"],
+        "tips": ["Compare with monolithic", "Discuss benefits and challenges", "Mention communication patterns"]
+      },
+      {
+        "id": "tech-default-008",
+        "question": "What is containerization and why is it useful?",
+        "category": "devops",
+        "difficulty": "medium",
+        "expectedKeywords": ["Docker", "isolation", "consistency", "deployment", "dependencies", "environment"],
+        "tips": ["Explain Docker basics", "Discuss advantages", "Mention container orchestration"]
+      }
+    ],
+    "React": [
+      {
+        "id": "tech-react-001",
+        "question": "Explain the virtual DOM in React.",
+        "category": "react-core",
+        "difficulty": "medium",
+        "expectedKeywords": ["virtual", "reconciliation", "performance", "diffing", "batch updates"],
+        "tips": ["Explain why virtual DOM is useful", "Describe reconciliation algorithm", "Show performance benefits"]
+      },
+      {
+        "id": "tech-react-002",
+        "question": "What are React hooks and why were they introduced?",
+        "category": "react-hooks",
+        "difficulty": "medium",
+        "expectedKeywords": ["state", "side effects", "functional components", "reusability", "simplicity"],
+        "tips": ["Name common hooks", "Explain motivation for hooks", "Show examples (useState, useEffect)"]
+      },
+      {
+        "id": "tech-react-003",
+        "question": "Describe the difference between state and props.",
+        "category": "react-core",
+        "difficulty": "easy",
+        "expectedKeywords": ["mutable", "immutable", "local", "passed", "component communication"],
+        "tips": ["Explain mutability", "Show data flow", "Discuss use cases"]
+      },
+      {
+        "id": "tech-react-004",
+        "question": "How does useEffect work and when would you use it?",
+        "category": "react-hooks",
+        "difficulty": "medium",
+        "expectedKeywords": ["side effects", "dependencies", "cleanup", "lifecycle", "async"],
+        "tips": ["Explain dependency array", "Show cleanup pattern", "Mention common pitfalls"]
+      },
+      {
+        "id": "tech-react-005",
+        "question": "What is context API and when should you use it?",
+        "category": "react-state",
+        "difficulty": "hard",
+        "expectedKeywords": ["global state", "prop drilling", "provider", "consumer", "performance"],
+        "tips": ["Compare with Redux", "Discuss when to use", "Show implementation example"]
+      }
+    ],
+    "Python": [
+      {
+        "id": "tech-python-001",
+        "question": "What are Python decorators?",
+        "category": "python-advanced",
+        "difficulty": "hard",
+        "expectedKeywords": ["function", "wrapper", "syntax", "@", "closure"],
+        "tips": ["Explain with examples", "Show @ syntax", "Discuss common use cases"]
+      },
+      {
+        "id": "tech-python-002",
+        "question": "Explain list comprehensions in Python.",
+        "category": "python-syntax",
+        "difficulty": "medium",
+        "expectedKeywords": ["readable", "efficient", "loop", "filter", "syntax"],
+        "tips": ["Give multiple examples", "Show performance benefits", "Compare with loops"]
+      },
+      {
+        "id": "tech-python-003",
+        "question": "What is the GIL in Python?",
+        "category": "python-advanced",
+        "difficulty": "hard",
+        "expectedKeywords": ["Global Interpreter Lock", "threading", "concurrency", "performance"],
+        "tips": ["Explain what GIL is", "Discuss limitations", "Show workarounds"]
+      },
+      {
+        "id": "tech-python-004",
+        "question": "How does Python handle memory management?",
+        "category": "python-memory",
+        "difficulty": "hard",
+        "expectedKeywords": ["garbage collection", "reference counting", "heap", "stack"],
+        "tips": ["Explain reference counting", "Discuss garbage collection", "Mention memory leaks"]
+      },
+      {
+        "id": "tech-python-005",
+        "question": "Explain the difference between deep and shallow copy.",
+        "category": "python-data",
+        "difficulty": "medium",
+        "expectedKeywords": ["reference", "nested objects", "copy module", "independent"],
+        "tips": ["Show with examples", "Demonstrate difference", "Explain when to use each"]
+      }
+    ],
+    "JavaScript": [
+      {
+        "id": "tech-js-001",
+        "question": "Explain closures in JavaScript.",
+        "category": "js-advanced",
+        "difficulty": "medium",
+        "expectedKeywords": ["scope", "lexical", "function", "data privacy", "inner function"],
+        "tips": ["Show practical examples", "Explain scope chain", "Discuss use cases"]
+      },
+      {
+        "id": "tech-js-002",
+        "question": "What is the event loop in JavaScript?",
+        "category": "js-async",
+        "difficulty": "hard",
+        "expectedKeywords": ["callback queue", "microtask", "stack", "async", "promises"],
+        "tips": ["Draw the flow", "Explain microtask vs task", "Show with async/await"]
+      },
+      {
+        "id": "tech-js-003",
+        "question": "Describe prototypal inheritance.",
+        "category": "js-oop",
+        "difficulty": "hard",
+        "expectedKeywords": ["prototype", "chain", "__proto__", "object", "inheritance"],
+        "tips": ["Compare with class syntax", "Explain prototype chain", "Show examples"]
+      },
+      {
+        "id": "tech-js-004",
+        "question": "What are Promises and async/await?",
+        "category": "js-async",
+        "difficulty": "medium",
+        "expectedKeywords": ["asynchronous", "resolve", "reject", "then", "catch", "async/await"],
+        "tips": ["Explain Promise states", "Show syntax", "Compare with callbacks"]
+      },
+      {
+        "id": "tech-js-005",
+        "question": "Explain the difference between var, let, and const.",
+        "category": "js-syntax",
+        "difficulty": "easy",
+        "expectedKeywords": ["scope", "hoisting", "reassignment", "block", "temporal dead zone"],
+        "tips": ["Discuss scope differences", "Explain hoisting", "Show use case recommendations"]
+      }
+    ],
+    "TypeScript": [
+      {
+        "id": "tech-ts-001",
+        "question": "What are generics in TypeScript?",
+        "category": "ts-advanced",
+        "difficulty": "medium",
+        "expectedKeywords": ["type variable", "reusable", "constraint", "default type"],
+        "tips": ["Show practical examples", "Explain use cases", "Show with interfaces and functions"]
+      },
+      {
+        "id": "tech-ts-002",
+        "question": "Explain the difference between interfaces and types.",
+        "category": "ts-core",
+        "difficulty": "medium",
+        "expectedKeywords": ["declaration merging", "union", "intersection", "object shape"],
+        "tips": ["Compare features", "Show when to use each", "Discuss best practices"]
+      },
+      {
+        "id": "tech-ts-003",
+        "question": "What are decorators in TypeScript?",
+        "category": "ts-advanced",
+        "difficulty": "hard",
+        "expectedKeywords": ["experimental", "metadata", "class", "property", "function"],
+        "tips": ["Show practical examples", "Discuss use cases", "Mention experimental status"]
+      }
+    ],
+    "Node.js": [
+      {
+        "id": "tech-nodejs-001",
+        "question": "Explain the event-driven architecture of Node.js.",
+        "category": "nodejs-core",
+        "difficulty": "medium",
+        "expectedKeywords": ["event emitter", "callback", "non-blocking", "I/O", "libuv"],
+        "tips": ["Explain event loop", "Show examples with EventEmitter", "Discuss benefits"]
+      },
+      {
+        "id": "tech-nodejs-002",
+        "question": "What is the purpose of package.json and package-lock.json?",
+        "category": "nodejs-npm",
+        "difficulty": "easy",
+        "expectedKeywords": ["dependencies", "scripts", "versions", "lock file", "consistency"],
+        "tips": ["Explain each field", "Show example scripts", "Discuss lock file importance"]
+      },
+      {
+        "id": "tech-nodejs-003",
+        "question": "How do you handle errors in async/await?",
+        "category": "nodejs-async",
+        "difficulty": "medium",
+        "expectedKeywords": ["try", "catch", "error handling", "promise rejection"],
+        "tips": ["Show try-catch pattern", "Discuss error types", "Show best practices"]
+      }
+    ]
+  },
+  "referenceAnswers": {
+    "hr-001": "I am a developer with hands-on experience building web apps. I specialize in solving business problems with clean architecture, reliable APIs, and clear communication with cross-functional teams.",
+    "hr-002": "My strengths are problem solving, communication, and ownership. I break complex problems into smaller tasks, communicate status clearly, and deliver outcomes on time.",
+    "hr-003": "In five years, I want to grow into a senior role where I can design systems, mentor teammates, and drive high-impact projects aligned with business goals.",
+    "hr-004": "I want to work here because your product impact and engineering culture align with my values. I am excited by the mission and the opportunity to contribute to meaningful customer outcomes.",
+    "hr-005": "In a high-pressure release, I organized priorities, aligned stakeholders, and fixed critical defects quickly. We shipped on time and reduced post-release incidents.",
+    "tech-default-001": "A stack follows LIFO, where push and pop happen at the same end. A queue follows FIFO, where enqueue adds to the rear and dequeue removes from the front.",
+    "tech-default-002": "Binary search runs in O(log n) because each comparison halves the remaining search space in a sorted collection.",
+    "tech-default-003": "Polymorphism lets one interface support multiple implementations. Common forms are method overloading (compile-time) and overriding (runtime) through inheritance or interfaces.",
+    "tech-default-004": "I start with EXPLAIN, identify bottlenecks, add or tune indexes, reduce expensive joins, optimize filters, and add caching where appropriate.",
+    "tech-default-005": "REST uses resource-oriented endpoints, standard HTTP verbs, stateless communication, proper status codes, and consistent versioning.",
+    "tech-js-001": "A closure is a function that remembers variables from its lexical scope even after the outer function returns.",
+    "tech-js-002": "JavaScript runs code on a call stack. Async callbacks enter task queues, promises use the microtask queue, and the event loop schedules work when the stack is empty.",
+    "tech-js-003": "Objects inherit from other objects through the prototype chain. Property lookup walks the chain until a match is found or null is reached.",
+    "tech-js-004": "A Promise represents async completion with pending, fulfilled, or rejected states. async/await is syntax over promises that makes async code look synchronous, typically with try/catch for errors.",
+    "tech-js-005": "var is function-scoped and hoisted. let and const are block-scoped with temporal dead zone behavior. const prevents reassignment of the binding.",
+    "tech-react-001": "The virtual DOM is an in-memory representation of UI. React diffs trees during reconciliation and applies minimal real DOM updates for performance.",
+    "tech-react-002": "Hooks let functional components use state and side effects, improving reuse and reducing class component complexity.",
+    "tech-react-003": "Props are read-only inputs passed from parent to child. State is local mutable data managed by the component.",
+    "tech-react-004": "useEffect runs side effects after render. The dependency array controls when it reruns, and cleanup handles unmounting or dependency changes.",
+    "tech-python-001": "Decorators wrap a function with additional behavior without changing the original function body, commonly used for logging, auth, and retries.",
+    "tech-python-002": "List comprehensions provide concise syntax to build lists with optional filtering and are often more readable than manual loops.",
+    "tech-python-003": "The GIL allows only one thread to execute Python bytecode at a time in CPython, limiting CPU-bound threading parallelism.",
+    "tech-ts-001": "Generics create reusable components and functions that work across types while preserving type safety.",
+    "tech-ts-002": "Interfaces define object shapes and support declaration merging. Type aliases can represent unions, intersections, and primitives.",
+    "tech-nodejs-001": "Node.js uses an event-driven, non-blocking I/O model with an event loop and libuv to handle many concurrent operations efficiently.",
+    "hr-006": "I am motivated by solving meaningful problems, continuous learning, and collaborating with a strong team to deliver measurable impact.",
+    "hr-007": "I handle pressure by prioritizing tasks, breaking work into milestones, communicating risks early, and staying calm with clear execution.",
+    "hr-008": "I showed leadership by taking initiative, aligning teammates on goals, and driving execution to a successful result.",
+    "hr-009": "A genuine weakness is overcommitting. I now set clearer priorities, estimate realistically, and communicate trade-offs early to improve delivery quality.",
+    "hr-010": "I am looking for growth, broader responsibility, and stronger alignment with my long-term goals and technical interests.",
+    "tech-default-006": "SQL databases are relational with fixed schemas and strong ACID transactions. NoSQL databases are often schema-flexible and optimized for horizontal scale and specific access patterns.",
+    "tech-default-007": "Microservices split a system into independently deployable services with clear APIs, enabling team autonomy and scaling, but adding distributed system complexity.",
+    "tech-default-008": "Containerization packages an application and dependencies into an isolated unit for consistent development, testing, and deployment across environments.",
+    "tech-react-005": "Context API shares state across component trees without prop drilling using Provider and useContext, best for moderate global state needs.",
+    "tech-python-004": "Python manages memory with reference counting plus cyclic garbage collection; objects are allocated on the heap and reclaimed when unreachable.",
+    "tech-python-005": "A shallow copy duplicates the outer container but keeps references to nested objects. A deep copy recursively copies nested objects for full independence.",
+    "tech-ts-003": "Decorators are experimental annotations that can modify classes and members, commonly used for metadata and framework integration.",
+    "tech-nodejs-002": "package.json defines project metadata, scripts, and dependency ranges. package-lock.json pins exact versions to ensure reproducible installs.",
+    "tech-nodejs-003": "Handle async/await errors with try/catch, propagate errors when needed, and centralize logging and response mapping for consistent handling."
+  },
+  "skills": [
+    "Python", "Java", "JavaScript", "TypeScript", "React", "Angular", "Vue.js", "Node.js",
+    "SQL", "MongoDB", "C++", "C#", "Go", "Rust", "Ruby", "PHP", "Swift", "Kotlin",
+    "Docker", "Kubernetes", "AWS", "Azure", "GCP", "Machine Learning", "Data Structures",
+    "System Design", "REST API", "GraphQL", "Git", "CI/CD"
+  ],
+  "tips": [
+    "Practice regularly for consistent improvement.",
+    "Keep answers structured and clear.",
+    "Maintain good posture while speaking.",
+    "Use the STAR method for behavioral questions.",
+    "Reduce filler words for better clarity.",
+    "Maintain eye contact with the camera.",
+    "Take a brief pause before answering complex questions.",
+    "Show enthusiasm and genuine interest.",
+    "Listen carefully to the question before answering.",
+    "Provide specific examples from your experience.",
+    "Ask clarifying questions if needed.",
+    "Show problem-solving approach, not just solutions."
+  ]
+}

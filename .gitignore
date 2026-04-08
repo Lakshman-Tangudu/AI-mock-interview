@@ -1,0 +1,25 @@
+# Python env
+.venv/
+
+# Node
+**/node_modules/
+**/dist/
+**/coverage/
+
+# Env files
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
